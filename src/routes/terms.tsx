@@ -20,7 +20,7 @@ function Terms() {
   return (
     <LegalPage
       title="Terms of Service"
-      updated="[2026]
+      updated="[2026]"
       intro={`These terms govern ${site.name} 's website and any device-tracking services we provide under a separate agreement.`}
       sections={[
         {

@@ -4,10 +4,10 @@ type Theme = "dark" | "light";
 const STORAGE_KEY = "cybersnitch-theme";
 
 function getInitialTheme(): Theme {
-  if (typeof window === "undefined") return "dark";
+  if (typeof window === "undefined") return "light";
   const stored = window.localStorage.getItem(STORAGE_KEY);
   if (stored === "dark" || stored === "light") return stored;
-  return "dark"; // dark-first product
+  return "light"; // light-first product
 }
 
 export function useTheme() {

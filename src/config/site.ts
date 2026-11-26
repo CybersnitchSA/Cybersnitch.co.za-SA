@@ -6,11 +6,11 @@ export const site = {
   name: "Cybersnitch",
   tagline: "Track & Locate any Lost/Missing Device with Us.",
   description:
-    "Cybersnitch is a cybersecurity company that is based in South Africa that tracks and locates missing devices — laptops, smartphones, and wearables — Even after the device has been Wiped, Reset or Flashed.",
+    "Cybersnitch is a cybersecurity company based in South Africa that tracks and locates missing devices — laptops, smartphones, and wearables — Even after the device has been Wiped, Reset or Flashed.",
   // Replace with your real contact details:
-  email: "cyberintel.tracking@gmail.com",
+  youremail: "Cybersnitch@support.com",
   phone: "+27 (0) 63 758 1758Z",
-  address: "Cape Town, South Africa",
+  country: "Cape Town, South Africa",
   businessHours: "Mon–Fri, 08:00–17:00 SAST",
   // Set to your GitHub Pages URL after deployment, e.g. "https://username.github.io/cybersitch"
   url: "https://cybersnitch.co.za",

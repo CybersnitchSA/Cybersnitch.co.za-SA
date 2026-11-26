@@ -33,7 +33,7 @@ jobs:
       - name: Build website
         run: bun run build
         env:
-          VITE_BASE_PATH: /Cybersnitch.co.za-SA/
+          VITE_BASE_PATH: /
 
       - name: Upload website
         uses: actions/upload-pages-artifact@v3
